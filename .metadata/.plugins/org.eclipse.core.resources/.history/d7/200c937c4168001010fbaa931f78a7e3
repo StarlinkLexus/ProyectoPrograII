@@ -1,0 +1,10 @@
+package ProyectoApp2.SistemaBancario;
+
+import java.time.LocalDateTime;
+
+public class Transacion {
+double monto;
+TipoTransaccion tipo;
+LocalDateTime fecha;
+
+}

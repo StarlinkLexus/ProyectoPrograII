@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;ProyectoApp2.SistemaBancario.cuenta.java&apos; to &apos;Cuenta.java&apos;&#x0D;&#x0A;- Original project: &apos;SistemaBancario&apos;&#x0D;&#x0A;- Original element: &apos;ProyectoApp2.SistemaBancario.cuenta.java&apos;&#x0D;&#x0A;- Renamed element: &apos;ProyectoApp2.SistemaBancario.Cuenta.java&apos;" description="Rename compilation unit &apos;cuenta.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;ProyectoApp2.SistemaBancario{cuenta.java" name="Cuenta.java" references="false" stamp="1753327854973" version="1.0"/>
+</session>

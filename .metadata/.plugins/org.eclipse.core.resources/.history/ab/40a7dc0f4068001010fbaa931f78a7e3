@@ -1,0 +1,8 @@
+package ProyectoApp2.SistemaBancario;
+
+public class Transacion {
+double monto;
+TipoTransaccion tipo;
+
+
+}
