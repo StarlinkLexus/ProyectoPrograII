@@ -139,3 +139,8 @@
 2025-07-20 14:05:24,449 [Worker-21: Creating javafx-archetype-simple] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
 2025-07-20 14:05:24,633 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ale_v\eclipse-ProyectoApps\SistemaBancario\src\main\resources
 2025-07-20 14:05:24,636 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ale_v\eclipse-ProyectoApps\SistemaBancario\src\test\resources
+2025-07-23 21:05:08,395 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-07-23 21:22:49,551 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ale_v\eclipse-ProyectoApps\SistemaBancario\src\main\resources
+2025-07-23 21:22:49,557 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ale_v\eclipse-ProyectoApps\SistemaBancario\src\test\resources
+2025-07-23 21:24:20,638 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ale_v\eclipse-ProyectoApps\SistemaBancario\src\main\resources
+2025-07-23 21:24:20,640 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ale_v\eclipse-ProyectoApps\SistemaBancario\src\test\resources
