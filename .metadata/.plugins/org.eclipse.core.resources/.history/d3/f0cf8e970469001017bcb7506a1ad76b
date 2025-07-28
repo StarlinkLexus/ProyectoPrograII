@@ -1,0 +1,19 @@
+package ProyectoApp2.SistemaBancario;
+
+public class CajaAhorro extends Cuenta {
+	int movAnuales;
+	Cliente cliente;
+
+	public CajaAhorro(int numero, double saldo, int movAnuales, Cliente cliente) {
+		super(numero, saldo);
+		this.movAnuales = movAnuales;
+		this.cliente = cliente;
+	}
+
+	@Override
+	public boolean checkCuenta(double monto) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

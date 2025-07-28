@@ -25,12 +25,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ProyectoApp2.Innovacion"/>
 			<item value="ProyectoApp2.SistemaBancario"/>
 		</list>
 		<list key="groupId">
 			<item value="ProyectoApp2"/>
 		</list>
 		<list key="artifactId">
+			<item value="Innovacion"/>
 			<item value="SistemaBancario"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -63,5 +65,23 @@
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\ale_v\Downloads\PortalInnovacion_EclipseReady\src\main\java"/>
+			<item value="C:\Users\ale_v\Downloads\PortalInnovacion_EclipseReady"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>

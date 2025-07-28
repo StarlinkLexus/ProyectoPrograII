@@ -1,0 +1,5 @@
+package ProyectoApp2.SistemaBancario;
+
+public class Corriente {
+
+}

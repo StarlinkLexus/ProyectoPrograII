@@ -1,0 +1,55 @@
+package ProyectoApp2.SistemaBancario;
+
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+import model.Corriente;
+
+public class MainView extends Application {
+    private Corriente Corriente;
+
+    @Override
+    public void start(Stage primaryStage) {
+        TextField montoField = new TextField();
+        TextField limiteField = new TextField();
+        Button crearCuentaButton = new Button("Crear Cuenta Corriente");
+        Button depositoButton = new Button("Depositar");
+        Button retiroButton = new Button("Retirar");
+
+        crearCuentaButton.setOnAction(e -> {
+            double limiteDescubierto = Double.parseDouble(limiteField.getText());
+            Corriente = new Corriente(limiteDescubierto);
+        });
+
+        depositoButton.setOnAction(e -> {
+            double monto = Double.parseDouble(montoField.getText());
+            if (cuentaCorriente != null) {
+                cuentaCorriente.deposito(monto);
+            }
+        });
+
+        retiroButton.setOnAction(e -> {
+            double monto = Double.parseDouble(montoField.getText());
+            if (cuentaCorriente != null) {
+                try {
+                    cuentaCorriente.retiro(monto);
+                } catch (RuntimeException ex) {
+                    System.out.println(ex.getMessage());
+                }
+            }
+        });
+
+        VBox layout = new VBox(10, limiteField, crearCuentaButton, montoField, depositoButton, retiroButton);
+        Scene scene = new Scene(layout, 300, 200);
+        primaryStage.setScene(scene);
+        primaryStage.setTitle("Sistema Bancario");
+        primaryStage.show();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+}

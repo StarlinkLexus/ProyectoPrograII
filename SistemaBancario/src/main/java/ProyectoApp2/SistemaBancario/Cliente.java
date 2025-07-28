@@ -1,4 +1,5 @@
 package ProyectoApp2.SistemaBancario;
+
 /*
  * 	
  */
@@ -39,16 +40,5 @@ public class Cliente {
 	public void setTeléfono(String teléfono) {
 		this.teléfono = teléfono;
 	}
-
-
-
-
-
-
-
-
-
-
-
 
 }

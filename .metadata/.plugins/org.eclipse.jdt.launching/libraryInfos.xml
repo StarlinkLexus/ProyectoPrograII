@@ -13,6 +13,7 @@
     </libraryInfo>
     <libraryInfo home="C:\Users\ale_v\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre" version="21.0.6"/>
     <libraryInfo home="C:\Program Files\Java\jdk-24" version="24.0.1"/>
+    <libraryInfo home="C:\Program Files\Java\jdk-22" version="22.0.2"/>
     <libraryInfo home="C:\Users\Kalin\Desktop\eclipse-jee-2025-03-R-win32-x86_64 (2)\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529" version="21.0.6">
         <bootpath>
             <entry path="null"/>
