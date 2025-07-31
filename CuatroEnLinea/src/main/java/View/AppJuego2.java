@@ -132,7 +132,7 @@ public class AppJuego2 extends Application {
             case 'B':
                 return Color.WHITE;
             default:
-                return Color.LIGHTGRAY; // Si está vacía
+                return Color.SLATEGREY; // Si está vacía
         }
     }
 
