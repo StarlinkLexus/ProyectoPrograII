@@ -98,7 +98,7 @@ public class Main extends Application {
              double valor = Double.parseDouble(monto.getText()); // Convertir el monto a número
              Cuenta c = cuentaCombo.getValue(); // Obtener la cuenta seleccionada
              c.deposito(valor); // Ejecutar depósito
-             historial.appendText("Depósito: $" + valor + " -> Saldo: $" + c.getSaldo() + "\n");
+             historial.appendText("Depósito: $" + valor + " -> Saldo: $" + c.getSaldo() + "\n" );
          } catch (Exception ex) {
              historial.appendText("Error: " + ex.getMessage() + "\n");
          }
