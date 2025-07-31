@@ -1,5 +1,5 @@
 # ProyectoPrograII
-@Autores: Alexis Vallejo, Marco Rivera
+@Autores: Alexis Vallejo, Marco Rivera, Juan Bolanios, Missael Cuenca.
 @Fecha: 20/07/2025
 
 Comentario: 
