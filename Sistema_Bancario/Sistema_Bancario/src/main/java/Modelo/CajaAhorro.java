@@ -22,9 +22,9 @@ public class CajaAhorro extends Cuenta {
 	@Override
 	public void retiro(double monto) {
 		if (transacciones >= LIMITE && monto < 0) {
-			throw new RuntimeException("Límite de transacciones alcanzado.");
+			throw new RuntimeException("SALDO INSUFICIENTE");
 		} else if (monto <= 0) {
-			throw new IllegalArgumentException("El monto del retiro debe ser positivo.");
+			throw new IllegalArgumentException("EL MONTO DEL RETIRO DEBE SER POSITIVO.");
 		}
 		super.retiro(monto);
 		transacciones++;
@@ -36,9 +36,9 @@ public class CajaAhorro extends Cuenta {
 	@Override
 	public void deposito(double monto) {
 		if (transacciones >= LIMITE && monto < 0) {
-			throw new RuntimeException("Límite de transacciones alcanzado.");
+			throw new RuntimeException("SALDO INSUFICIENTE");
 		} else if (monto <= 0) {
-			throw new IllegalArgumentException("El monto del retiro debe ser positivo.");
+			throw new IllegalArgumentException("EL MONTO DEBE SER POSITIVO");
 		}
 		super.deposito(monto);
 		transacciones++;

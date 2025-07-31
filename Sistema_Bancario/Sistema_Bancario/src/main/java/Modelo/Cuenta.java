@@ -27,7 +27,7 @@ public abstract class Cuenta {
 
 	public void retiro(double monto) {
 		if (!checkCuenta(monto)) {
-			throw new RuntimeException("HECHO EL VIVO SI NI HAY TANTO.");
+			throw new RuntimeException("ERROR AL MOMENTO DE LA TRANSACCION.");
 		}
 		saldo -= monto;
 		transacciones.add(new Transaccion("RETIRO", monto));
