@@ -1,1 +1,3 @@
-/.metadata/
+# Ignorar configuraciones locales de Eclipse
+.metadata/
+
